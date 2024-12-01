@@ -2,6 +2,10 @@
 #ifndef INTBINARYTREE_H
 #define INTBINARYTREE_H
 
+#include <string>
+
+using namespace std;
+
 // The IntBinaryTree class manages a binary tree of integers.
 class IntBinaryTree {
 private:
@@ -42,4 +46,4 @@ public:
    void displayPostOrder() const   {  displayPostOrder(root); }
 };
 
-#endif // INTBINARYTREE_H
+#endif //INTBINARYTREE_H
